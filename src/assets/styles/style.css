@@ -1,68 +1,30 @@
-.btn:active,
-.btn.active {
-    box-shadow: none;
-}
-
-.btn {
-    color: inherit;
-    background-color: transparent;
-}
-
-.buttons-margin .btn {
-    margin-bottom: 5px;
-}
-
-.btn-default {
-    border-color: #ebf0f1;
-}
-
-.btn.btn-w-sm {
-    min-width: 80px;
-}
-
-.btn.btn-w-md {
-    min-width: 120px;
-}
-
-.btn.btn-w-lg {
-    min-width: 160px;
-}
-
-.btn.btn-rounded {
-    border-radius: 50px;
-}
-
-.btn.btn-squared {
-    border-radius: 0;
-}
-
 .btn-accent {
     color: #949ba2;
     background-color: transparent;
-    border-color: #f6a821;
+    border-color: #007bff; /* Nuevo color de acento */
 }
 
 .btn-accent:focus,
 .btn-accent.focus {
     color: #ffffff;
-    background-color: rgba(246, 168, 33, 0.1);
-    border-color: #f6a821;
+    background-color: rgba(0, 123, 255, 0.1); /* Nuevo color de acento */
+    border-color: #007bff; /* Nuevo color de acento */
     outline: 0;
     box-shadow: none;
 }
 
 .btn-accent:hover {
     color: #ffffff;
-    background-color: rgba(246, 168, 33, 0.1);
-    border-color: #f6a821;
+    background-color: rgba(0, 123, 255, 0.1); /* Nuevo color de acento */
+    border-color: #007bff; /* Nuevo color de acento */
 }
 
 .btn-accent:active,
 .btn-accent.active,
 .open > .dropdown-toggle.btn-accent {
     color: #ffffff;
-    background-color: rgba(246, 168, 33, 0.1);
-    border-color: #f6a821;
+    background-color: rgba(0, 123, 255, 0.1); /* Nuevo color de acento */
+    border-color: #007bff; /* Nuevo color de acento */
 }
 
 .btn-accent:active:hover,
@@ -75,8 +37,8 @@
 .btn-accent.active.focus,
 .open > .dropdown-toggle.btn-accent.focus {
     color: #ffffff;
-    background-color: rgba(246, 168, 33, 0.1);
-    border-color: #f8bb52;
+    background-color: rgba(0, 123, 255, 0.1); /* Nuevo color de acento */
+    border-color: #007bff; /* Nuevo color de acento */
     outline: 0;
     box-shadow: none;
 }
@@ -96,8 +58,8 @@ fieldset[disabled] .btn-accent:focus,
 .btn-accent.disabled.focus,
 .btn-accent[disabled].focus,
 fieldset[disabled] .btn-accent.focus {
-    background-color: rgba(246, 168, 33, 0.1);
-    border-color: #f6a821;
+    background-color: rgba(0, 123, 255, 0.1); /* Nuevo color de acento */
+    border-color: #007bff; /* Nuevo color de acento */
 }
 
 .btn-accent .badge {
@@ -183,7 +145,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:focus,
 .btn-primary.focus {
     color: #ffffff;
-    background-color: rgba(15, 131, 201, 0.1);
+    background-color: rgba(49, 60, 68, 0.1);
     border-color: #0F83C9;
     outline: 0;
     box-shadow: none;
